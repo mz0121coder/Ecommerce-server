@@ -1,0 +1,26 @@
+{
+  "name": "ecommerce-server",
+  "version": "1.0.0",
+  "description": "Building the back-end for an ecommerce site",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mz0121coder/Ecommerce-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mz0121coder/Ecommerce-server/issues"
+  },
+  "homepage": "https://github.com/mz0121coder/Ecommerce-server#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.0",
+    "sequelize": "^6.6.5"
+  }
+}
